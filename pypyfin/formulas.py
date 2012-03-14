@@ -22,3 +22,6 @@ class Formula:
 
     def bookvalue(assets, liabilities):
         return assets - liabilities
+
+    def daily_return(yesterday_open=0,today_close=0):
+        return (today_close - yesterday_open)/yesterday_open

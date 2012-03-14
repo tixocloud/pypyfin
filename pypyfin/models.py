@@ -5,3 +5,5 @@ class Candlestick():
         self.open = 0
         self.close = 0
         self.direction = 0
+        self.periodicity = 0
+        self.datetime = None
